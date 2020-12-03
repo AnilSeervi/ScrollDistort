@@ -13,7 +13,7 @@ body {
   scroll-behavior: smooth;
 }
 body {
-  margin: -100px auto 300px auto;
+  margin: -300px auto 300px auto;
 }
 body::-webkit-scrollbar {
   width: 0.2rem;
@@ -46,4 +46,12 @@ img {
 }
 div + div {
   margin-top: 50px;
+}
+@media (max-width: 600px) {
+  body {
+    margin-top: -100px;
+  }
+  h1 {
+    font-size: 35px;
+  }
 }
